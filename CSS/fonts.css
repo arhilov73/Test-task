@@ -1,0 +1,91 @@
+/* Open Sans (300, 400, 600, 700, 800 */
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Light'), local('Open-Sans-Light'),
+        url('../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Light'), local('Open-Sans-Light'),
+        url('../fonts/Open_Sans/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Regular'), local('Open-Sans-Regular'),
+        url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Regular'), local('Open-Sans-Regular'),
+        url('../fonts/Open_Sans/OpenSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Semi-bold'), local('Open-Sans-Semi-bold'),
+        url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Semi-bold'), local('Open-Sans-Semi-bold'),
+        url('../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('Open-Sans-Bold'),
+        url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('Open-Sans-Bold'),
+        url('../fonts/Open_Sans/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Extra-bold'), local('Open-Sans-Extra-bold'),
+        url('../fonts/Open_Sans/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Extra-bold'), local('Open-Sans-Extra-bold'),
+        url('../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* SF Pro Display(400, 500) */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Regular'), local('SF-Pro-Display-Regular'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Regular/SFProDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Regular/SFProDisplay-Regular.woff') format('woff'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Regular/SFProDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Medium'), local('SF-Pro-Display-Medium'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Medium/SFProDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Medium/SFProDisplay-Medium.woff') format('woff'),
+        url('../fonts/SF_Pro_Display/SFProDisplay-Medium/SFProDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
