@@ -1,4 +1,4 @@
-header .header-contacts #contacts-container, header .header-contacts #contacts-container .half, header .header-body, header .header-info .header-info-nav, header .nav, main #article-page, main #present .see-it {
+header .header-contacts #contacts-container, header .header-contacts #contacts-container .half, header .header-body, header .header-info .header-info-nav, header .nav, main #article-page, main #present .see-it, main #present .links, main #video-section .video-header, main #video-section .video {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -302,6 +302,70 @@ main #present .see-it hr {
   width: 91.6rem;
   opacity: 0.1;
   border: 1px solid #000000;
+}
+main #present .links {
+  height: 10rem;
+  font-family: 'SF Pro Display';
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1.19;
+  color: #4D4D4D;
+}
+main #present .links p a {
+  border-bottom: 1px solid #4D4D4D;
+}
+main #present .links p img {
+  display: inline;
+  padding-left: 1rem;
+}
+main #present .links p:first-child a {
+  color: #D2001C;
+  border-bottom: 1px solid #D2001C;
+}
+main #video-section {
+  width: 144.8rem;
+  margin: auto;
+  background: #F9F9F9;
+}
+main #video-section .video-header {
+  width: 117.4rem;
+  margin: auto;
+  padding-top: 7rem;
+}
+main #video-section .video-header h1 {
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 1.19;
+  color: #222222;
+}
+main #video-section .video-header .video-btn {
+  width: 4rem;
+  height: 3.9rem;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  background-size: 25% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main #video-section .video-header .left-btn {
+  background-image: url(../images/main/left-btn.svg);
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+}
+main #video-section .video-header .right-btn {
+  background-image: url(../images/main/right-btn.svg);
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+}
+main #video-section .video {
+  width: 117.4rem;
+  margin: auto;
+  margin-top: 6rem;
+  padding-bottom: 7rem;
+}
+main #video-section .video .video-container iframe {
+  width: 55rem;
+  height: 31rem;
 }
 
 .select {
