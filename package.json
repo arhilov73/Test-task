@@ -1,0 +1,22 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arhilov73/Test-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arhilov73/Test-task/issues"
+  },
+  "homepage": "https://github.com/arhilov73/Test-task#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./CSS/index.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+
+    <!-- FONTS CSS -->
+    <link rel="stylesheet" href="./CSS/fonts.css">
+
+    <title>Test task</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- HEADER -->
+        <header>
+            <div class="header-contacts">
+
+                <div id="contacts-container">
+
+                    <div class="half">
+
+                        <form>
+                            <div class="select" data-state="">
+                                <div class="select__title" data-default="Option 0">Санкт-Петербург</div>
+                                    <div class="select__content">
+                                        <input id="singleSelect0" class="select__input" type="radio" name="singleSelect" checked />
+                                        <label for="singleSelect0" class="select__label hiden">Санкт-Петербург</label>
+                                        <input id="singleSelect1" class="select__input" type="radio" name="singleSelect" />
+                                        <label for="singleSelect1" class="select__label hiden">Москва</label>                                        
+                                    </div>
+                            </div>
+                          </form>
+    
+                        <p>+7 (812) 613-58-38</p>
+                        <p>Пн–пт 10:00–19:00, сб-вс 10:00–17:00</p>
+                    </div>
+
+                    <div>
+                        <button id="btn-contact">Свяжитесь с нами</button>
+                    </div>
+
+                    <div class="half">
+                        <a href="#">Напишите нам</a>
+                        <a href="#">Свяжитесь с директором</a>
+                        <div id="icons">
+                            <div><a href="#"><img src="./images/header/header-contacts/XMLID-497.svg" alt="tg"></a></div>
+                            <div><a href="#"><img src="./images/header/header-contacts/XMLID-819.svg" alt="skype"></a></div>
+                            <div><a href="#"><img src="./images/header/header-contacts/XMLID-7.svg" alt="phone"></a></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="header-body">
+
+                <!-- TOGGLE (active if width < 425px) -->
+                <div id="toggle-div">
+                    <div id="toggle">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <!-- //TOGGLE -->
+
+                <div id="logo">
+                    <a href="#">
+                        <img src="./images/header/header-body/logo.png" alt="logo">
+                    </a>
+                </div>
+
+                <div id="tagline">
+                    <p>Ваш эксперт<br>на рынке <span>3D</span>-техники</p>
+                </div>
+
+                <!-- YANDEX (active if width > 768px) -->
+                <div id="yandex">
+                    <a href="#"><img src="./images/header/header-body/yandex.png" alt="yandex"></a>
+                </div>
+                <!-- //YANDEX -->
+
+                <div id="search">
+                    <input type="search" name="search" placeholder="Введите запрос, например, Formlabs Form 2">
+                    <input type="submit" value="Найти">
+                </div>
+
+                <div id="login">
+                    <a href="#">Войти</a>
+                </div>
+
+                <div id="basket">
+                    <button>Корзина пуста</button>
+                </div>
+
+            </div>
+
+            <!-- HEADER INFO (change if width < 425px) -->
+            <div class="header-info">
+                <nav class="header-info-nav">
+                    <a href="#" id="catalog">Каталог</a>
+                    <a href="#">Акции</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Мероприятия</a>
+                    <a href="#">Оплата и доставка</a>
+                    <a href="#">Что с моим заказом?</a>
+                    <a href="#">Гос. закупки</a>
+                    <a href="#">Блог</a>
+                    <a href="#">Мастер-классы</a>
+                    <a href="#">Контакты</a>
+                </nav>
+            </div>
+            <!-- //HEADER INFO -->
+            
+            <!-- NAVBAR (change if width < 758px) -->
+            <nav class="nav">
+                <div class="nav-item">
+                    <div class="nav-title">3D-принтеры</div>
+                    <div class="nav-container hidden">
+                        <a href="#">3D-принтеры</a>
+                        <a href="#">3D-принтеры</a>
+                        <a href="#">3D-принтеры</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">3D-сканеры</div>
+                    <div class="nav-container hidden">
+                        <a href="#">3D-сканеры</a>
+                        <a href="#">3D-сканеры</a>
+                        <a href="#">3D-сканеры</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Станки</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Станки</a>
+                        <a href="#">Станки</a>
+                        <a href="#">Станки</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Роботы</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Роботы</a>
+                        <a href="#">Роботы</a>
+                        <a href="#">Роботы</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Образование</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Образование</a>
+                        <a href="#">Образование</a>
+                        <a href="#">Образование</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Стоматологам</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Стоматологам</a>
+                        <a href="#">Стоматологам</a>
+                        <a href="#">Стоматологам</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Гаджеты</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Гаджеты</a>
+                        <a href="#">Гаджеты</a>
+                        <a href="#">Гаджеты</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Материалы</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Материалы</a>
+                        <a href="#">Материалы</a>
+                        <a href="#">Материалы</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">ПО</div>
+                    <div class="nav-container hidden">
+                        <a href="#">ПО</a>
+                        <a href="#">ПО</a>
+                        <a href="#">ПО</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Решения</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Решения</a>
+                        <a href="#">Решения</a>
+                        <a href="#">Решения</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Учебный центр</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Учебный центр</a>
+                        <a href="#">Учебный центр</a>
+                        <a href="#">Учебный центр</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-title">Услуги</div>
+                    <div class="nav-container hidden">
+                        <a href="#">Услуги</a>
+                        <a href="#">Услуги</a>
+                        <a href="#">Услуги</a>
+                    </div>
+                </div>
+
+            </nav>
+            <!-- //NAVBAR -->
+
+        </header>
+        <!-- //HEADER -->
+
+        <!-- MAIN -->
+        <main>
+
+            <article>
+
+                <!-- TEAM FOTO -->
+                <div id="image"></div>
+                <!-- //TEAM FOTO -->
+
+                <div id="article-page">
+
+                    <!-- ARTICLE HEADER & BUTTON -->
+                    <div id="article-job">
+                        <h2>Твоя работа в крупнейшем интеграторе цифрового производства</h2>
+                        <button>Отправить резюме</button>
+                        <p>Нажимая кнопку, вы соглашаетесь <br>на обработку персональных данных.</p>
+                    </div>
+                    <!-- //ARTICLE HEADER & BUTTON -->
+
+                    <!-- MAIN TEXT OF ARTICLE -->
+                    <div id="article-text">
+                        <p>Top 3D Shop – лидер по продажам 3D-оборудования в России и странах СНГ. В 2018 мы стали лучшим интегратором 3D оборудования по аддитивным технологиям и цифровому производству по версии <a href='#'>3D Print Awards</a>.</p>
+                        <p>За 6 лет работы более 10 000 клиентов по всей России и СНГ выбрали Top 3D Shop. В 2018 наш оборот составил 600 млн. рублей, в компании работает более 100 сотрудников.</p>
+                        <p>Новая цель: 1 млрд торгового оборота в этом году и выход на международные рынки. Если вы — целеустремленный специалист, готовый учиться новым навыкам и учить других, мыслите не просто как исполнитель, а как владелец своего направления, то нам по пути!</p>
+                    </div>
+                    <!-- //MAIN TEXT OF ARTICLE -->
+
+                </div>
+
+                <!-- PRESENT LINKS -->
+                <div id="present">
+
+                    <!-- LINKS HEADER -->
+                    <div class="see-it">
+                        <h2>Лучше один раз увидеть:</h2>
+                        <hr>
+                    </div>
+                    <!-- //LINKS HEADER -->
+
+                    <!-- LINKS -->
+                    <div class="links">
+                        <p><a href="#">Как устроена наша компания изнутри</a><img src="./images/main/red-arrow.svg" alt="red-arrow"></p>
+                        <p><a href="#">Как создавалась компания - необычная история</a><img src="./images/main/grey-arrow.svg" alt="grey-arrow"></p>
+                        <p><a href="#">Читай о нас на 3D Today</a><img src="./images/main/grey-arrow.svg" alt="grey-arrow"></p>
+                    </div>
+                    <!-- //LINKS -->
+
+                </div>
+                <!-- //PRESENT LINKS -->
+
+            </article>
+
+            <!-- VIDEO SECTION -->
+            <div id="video-section">
+
+                <!-- VIDEO HEADER -->
+                <div class="video-header">
+                    <h1>Видео о нас</h1>
+                    <div class="buttons">
+                        <button class="video-btn left-btn"></button>
+                        <button class="video-btn right-btn"></button> 
+                    </div>
+                    
+                </div>
+                <!-- //VIDEO HEADER -->
+
+                <!-- VIDEOS -->
+                <div class="video">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/OYFOWAL1NlA" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/SOYBsly_yN8" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- //VIDEOS -->
+
+            </div>
+            <!-- //VIDEO SECTION -->
+
+        </main>
+        <!-- //MAIN -->
+
+    </div>
+    
+    <!-- MAIN JS SCRIPT -->
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
